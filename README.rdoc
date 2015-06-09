@@ -2,11 +2,46 @@
 * Project name: DBC Overflow
 * Description: Replica of Stack Overflow
 
-* Ruby version: 2.0.0
+Ruby version  2.0.0-p353 (x86_64-darwin14.0.0)
+RubyGems version  2.0.14
+Rack version  1.5.3
+Rails version 4.1.6
+JavaScript Runtime  JavaScriptCore
+Active Record version 4.1.6
+Action Pack version 4.1.6
+Action View version 4.1.6
+Action Mailer version 4.1.6
+Active Support version  4.1.6
+Middleware
+Rack::Sendfile
+ActionDispatch::Static
+Rack::Lock
+#<ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x007fe5523e88e0>
+Rack::Runtime
+Rack::MethodOverride
+ActionDispatch::RequestId
+Rails::Rack::Logger
+ActionDispatch::ShowExceptions
+ActionDispatch::DebugExceptions
+ActionDispatch::RemoteIp
+ActionDispatch::Reloader
+ActionDispatch::Callbacks
+ActiveRecord::Migration::CheckPending
+ActiveRecord::ConnectionAdapters::ConnectionManagement
+ActiveRecord::QueryCache
+ActionDispatch::Cookies
+ActionDispatch::Session::CookieStore
+ActionDispatch::Flash
+ActionDispatch::ParamsParser
+Rack::Head
+Rack::ConditionalGet
+Rack::ETag
+Application root  /Users/apprentice/Desktop/dbc_overflow
+Environment development
+Database adapter  postgresql
+Database schema version 20150608230128
 
-* System dependencies
-  Rails version: 4.1.6
-  Rubygems version 2.0.14
+
 
 
 
