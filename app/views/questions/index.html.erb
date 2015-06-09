@@ -1,5 +1,22 @@
-<h1>Questions#index</h1>
-<p>Find me in app/views/questions/index.html.erb</p>
+<h1>Questions</h1>
+
+<h3>New Question</h3>
+<%= form_for :question do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title, :placeholder =>"basic question" %>
+  </p>
+
+  <p>
+    <%= f.label :content %><br>
+    <%= f.text_area :content, :placeholder =>"elaborate here!" %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
 <ul>
 <% @questions.each do |question| %>
   <li><a href='/questions/<%= question.id %>'><%= question.title %></a></li>
